@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    background-color:#1b2530;
+  
+
+}
+.logo-image{
+    margin-top: 22px;
+    margin-left: 50px;
+}
+#head-menu{
+    width: 64%;
+}
+#navbar{
+    list-style-type: none;
+    padding-left: 24px;
+}
+.nav-menu{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    color: rgba(204,205,208,0.9);
+    margin-right: 16px;
+    line-height: 39px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+#sign-up{
+    margin-top: 18px;
+    
+}
+.btn{
+    width: 127px;
+    height: 41px;
+    background-color: #0f79af;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:#2199d4;
+}
+.link{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(226,226,226,0.9);
+
+   
+}
+.search{
+    margin-top: 26px;
+    margin-left: 16px;
+}
+#lang{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+#EN{
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(226,226,226,0.9);
+    margin-left: 4px;
+    margin-top: 33px;
+}
+#account{
+    margin-left: 40px;
+    margin-top: 31px
+}
+
+
+#block1{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.welcome-detail{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.note-1{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-top: 180px;
+    
+}
+.note-2{
+    font-size: 24px;
+    margin-top: 22px;
+}
+.note-3{
+    margin-top: 12px;
+}
+.btn-1{
+    width: 277px;
+    height: 53px;
+    background-color: #0f79af;
+    border-radius: 5px;
+}
+.btn-1:hover{
+    cursor: pointer;
+    background-color:#2199d4;
+}
+#cardpay{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+
+#block2{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+
+#note-rent{
+    margin-top: 12px;
+}
+
+
+#block3{
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+.description{
+    width: 50%;
+}
+.description-note{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.5px; 
+    margin-top: 30px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-left: 50px;
+}
+.description-note1{
+    font-size: 24px;
+    margin-top: 22px;
+    color: rgba(45, 45, 47, 0.9);
+}
+.action-menu{
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 4px;
+}
+.box{ 
+    width: 228px;
+    margin: 3px;  
+}
+.imagebox-1{
+    width: 222px;
+    height: 153px;
+}
+.imagebox-1:hover{
+    box-shadow: 0px 0px 20px black;
+}
+
+
+#block4{
+    width: 100%;
+    display: flex;
+}
+.image3{
+    width: 50%;
+}
+.firestick{
+    width: 50%;
+    background-color: #0c0b0c;
+    color: white;
+}
+.headfire{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.def-fire{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    padding-right: 137px; 
+}
+#getstarted{
+    padding-top: 40px;
+}
+#block5{
+    width: 100%;
+    display: flex;
+}
+#cartoon{
+    width: 50%;
+    background-color: #0c0b0c;
+    color: white;
+}
+#headcartoon{
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#def-cartoon{
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+#lastbutton{
+    margin-left: 50px;
+}
+
+
+#footer{
+    background-color:#1d1d1d;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 36px;
+}
+.footer-text{
+    color: #0f79af;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.footerdetail{
+    font-size: 15px;
+}
+.footer-text2{
+    padding-left: 5px;
+    color: #949494;
+}
